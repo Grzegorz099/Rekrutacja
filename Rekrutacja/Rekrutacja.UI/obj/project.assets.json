@@ -1,0 +1,2247 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "HtmlAgilityPack/1.4.9": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/Net45/_._": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Ical.Net/4.1.10": {
+        "type": "package",
+        "dependencies": {
+          "NodaTime": "2.0.2",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/net46/Ical.Net.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ICSharpCode.NRefactory/5.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.9.5.4"
+        },
+        "compile": {
+          "lib/Net40/ICSharpCode.NRefactory.CSharp.dll": {
+            "related": ".xml"
+          },
+          "lib/Net40/ICSharpCode.NRefactory.Cecil.dll": {
+            "related": ".xml"
+          },
+          "lib/Net40/ICSharpCode.NRefactory.Xml.dll": {
+            "related": ".xml"
+          },
+          "lib/Net40/ICSharpCode.NRefactory.dll": {
+            "related": ".Cecil.xml;.CSharp.xml;.xml;.Xml.xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "iTextSharp-LGPL/4.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/iTextSharp.dll": {}
+        },
+        "runtime": {
+          "lib/_._": {}
+        }
+      },
+      "JetBrains.Annotations/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/JetBrains.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Mail.dll/3.0.20007.1248": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Mail.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net461": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NETFramework.ReferenceAssemblies.net461.targets": {}
+        }
+      },
+      "Mono.Cecil/0.9.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NodaTime/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Oracle.ManagedDataAccess/12.1.2400": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PdfiumViewer/2.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/PdfiumViewer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PdfiumViewer.Native.x86.no_v8-no_xfa/2018.3.18.254": {
+        "type": "package",
+        "build": {
+          "Build/_._": {}
+        }
+      },
+      "PdfiumViewer.Native.x86_64.no_v8-no_xfa/2018.3.18.254": {
+        "type": "package",
+        "build": {
+          "Build/_._": {}
+        }
+      },
+      "RabbitMQ.Client/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/_._": {}
+        }
+      },
+      "Soneta.BI/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Data": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.BI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Business/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Oracle.ManagedDataAccess": "12.1.2400",
+          "SharpZipLib": "0.86.0",
+          "Soneta.Data": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Licence.Local.Proxy": "1.0.0",
+          "System.ValueTuple": "4.4.0",
+          "iTextSharp-LGPL": "4.1.6"
+        },
+        "compile": {
+          "lib/net46/Soneta.Business.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Core/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.4.9",
+          "Ical.Net": "4.1.10",
+          "Newtonsoft.Json": "10.0.2",
+          "RabbitMQ.Client": "3.4.0",
+          "Soneta.Business": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Syncfusion.Pdf.OCR.WinForms": "17.2.0.46",
+          "Syncfusion.XlsIO.WinForms": "17.2.0.46",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Core.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.CRM/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.4.9",
+          "Mail.dll": "3.0.20007.1248",
+          "Newtonsoft.Json": "10.0.2",
+          "Soneta.Business": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.CRM.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.CzlonkowieSzkolenia/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Deklaracje": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Ksiega": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "Soneta.Zadania": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.CzlonkowieSzkolenia.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Data/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Data.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Deklaracje/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Ksiega": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Deklaracje.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.EI/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Deklaracje": "2012.4.6",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Ksiega": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.EI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Generator/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Generator.exe": {}
+        },
+        "runtime": {
+          "lib/net46/_._": {}
+        }
+      },
+      "Soneta.GoogleServiceProvider/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Soneta.Handel/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Handel.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.KadryPlace/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.KadryPlace.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Kasa/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "10.0.0",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Kasa.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Soneta.Ksiega/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Ksiega.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Licence/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Soneta.Licence.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "Soneta.Licence.Local/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Licence": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Soneta.Licence.Local.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "Soneta.Licence.Local.Proxy/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2",
+          "Soneta.Licence.Local": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Soneta.Licence.Local.Proxy.dll": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "Soneta.Products.Content/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Soneta.Products.Modules/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.BI": "2012.4.6",
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.CzlonkowieSzkolenia": "2012.4.6",
+          "Soneta.Data": "2012.4.6",
+          "Soneta.Deklaracje": "2012.4.6",
+          "Soneta.EI": "2012.4.6",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Ksiega": "2012.4.6",
+          "Soneta.Products.Content": "2012.4.6",
+          "Soneta.Start": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "Soneta.Web.Business": "2012.4.6",
+          "Soneta.Workflow": "2012.4.6",
+          "Soneta.Zadania": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        }
+      },
+      "Soneta.Start/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Start.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Types/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "PdfiumViewer": "2.13.0",
+          "PdfiumViewer.Native.x86.no_v8-no_xfa": "2018.3.18.254",
+          "PdfiumViewer.Native.x86_64.no_v8-no_xfa": "2018.3.18.254",
+          "System.ValueTuple": "4.4.0",
+          "ZXing.Net": "0.14.0.1"
+        },
+        "compile": {
+          "lib/net46/Soneta.Types.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Web.Business/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Deklaracje": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "Soneta.Zadania": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Web.Business.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Workflow/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "ICSharpCode.NRefactory": "5.5.1",
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.Ksiega": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0",
+          "iTextSharp-LGPL": "4.1.6"
+        },
+        "compile": {
+          "lib/net46/Soneta.Workflow.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Soneta.Zadania/2012.4.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2",
+          "Soneta.Business": "2012.4.6",
+          "Soneta.CRM": "2012.4.6",
+          "Soneta.Core": "2012.4.6",
+          "Soneta.Generator": "12.0.0",
+          "Soneta.GoogleServiceProvider": "2.0.0",
+          "Soneta.Handel": "2012.4.6",
+          "Soneta.KadryPlace": "2012.4.6",
+          "Soneta.Kasa": "2012.4.6",
+          "Soneta.Ksiega": "2012.4.6",
+          "Soneta.Types": "2012.4.6",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/net46/Soneta.Zadania.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Compression.Base/17.2.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/17.2.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/_._": {}
+        }
+      },
+      "Syncfusion.Pdf.OCR.WinForms/17.2.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/net46/Syncfusion.OCRProcessor.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.XlsIO.WinForms/17.2.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "17.2.0.46",
+          "Syncfusion.Licensing": "17.2.0.46"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.TypeExtensions/4.1.0": {
+        "type": "package",
+        "compile": {
+          "ref/net46/System.Reflection.TypeExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net46/_._": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/_._": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.14.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/zxing.dll": {
+            "related": ".pdb;.presentation.pdb;.presentation.XML;.XML"
+          },
+          "lib/net40/zxing.presentation.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/_._": {
+            "related": ".pdb;.presentation.pdb;.presentation.XML;.XML"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HtmlAgilityPack/1.4.9": {
+      "sha512": "anZIsi7bbHZ35ZZzvCA+gVWC/mEXVhcJjJvxr3wzUEDsOE4uk0Fa0ZiaxVn83AZpVKVO4RHyqamPkzzJbMUgmQ==",
+      "type": "package",
+      "path": "htmlagilitypack/1.4.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HAPIcon.png",
+        "htmlagilitypack.1.4.9.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.pri",
+        "lib/NetCore45/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/sl3-wp/_._",
+        "lib/sl4/HtmlAgilityPack.XML",
+        "lib/sl4/HtmlAgilityPack.dll",
+        "lib/sl4/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "readme.txt"
+      ]
+    },
+    "Ical.Net/4.1.10": {
+      "sha512": "1vqnZBZR4/9TJq/RiXiXQ2seDIlvf1/xebHhJd2HdNIRSQIWbghNCZKUwEIjSOdbWkGhA6YrHjDJm+0yeN4H0A==",
+      "type": "package",
+      "path": "ical.net/4.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ical.net.4.1.10.nupkg.sha512",
+        "ical.net.nuspec",
+        "lib/Ical.Net.xml",
+        "lib/net46/Ical.Net.dll",
+        "lib/net46/Ical.Net.pdb",
+        "lib/net46/Ical.Net.xml",
+        "lib/netstandard1.3/Ical.Net.deps.json",
+        "lib/netstandard1.3/Ical.Net.dll",
+        "lib/netstandard1.3/Ical.Net.pdb",
+        "lib/netstandard1.3/Ical.Net.xml"
+      ]
+    },
+    "ICSharpCode.NRefactory/5.5.1": {
+      "sha512": "iFnWweJykC6nHF535Qv1gYMseEWcM8/CvBMDxZWlg4ExafRg5uJm5R30GufpbzSYrxg3ry7RJ4Pnw6ghKmuqfg==",
+      "type": "package",
+      "path": "icsharpcode.nrefactory/5.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icsharpcode.nrefactory.5.5.1.nupkg.sha512",
+        "icsharpcode.nrefactory.nuspec",
+        "lib/Net40/ICSharpCode.NRefactory.CSharp.dll",
+        "lib/Net40/ICSharpCode.NRefactory.CSharp.xml",
+        "lib/Net40/ICSharpCode.NRefactory.Cecil.dll",
+        "lib/Net40/ICSharpCode.NRefactory.Cecil.xml",
+        "lib/Net40/ICSharpCode.NRefactory.Xml.dll",
+        "lib/Net40/ICSharpCode.NRefactory.Xml.xml",
+        "lib/Net40/ICSharpCode.NRefactory.dll",
+        "lib/Net40/ICSharpCode.NRefactory.xml"
+      ]
+    },
+    "iTextSharp-LGPL/4.1.6": {
+      "sha512": "35STyoGKJOX1oTUWHOzn8/I1NXQMbkxKZfBsYwj8ZjOICVEZIi88wfOekQbYeU6MK0VOoZrMMO1e7KQVjJSIxQ==",
+      "type": "package",
+      "path": "itextsharp-lgpl/4.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "itextsharp-lgpl.4.1.6.nupkg.sha512",
+        "itextsharp-lgpl.nuspec",
+        "lib/iTextSharp.dll"
+      ]
+    },
+    "JetBrains.Annotations/10.0.0": {
+      "sha512": "vyadsDFnDDbR2NK3P++l9AA5ogM+cWlj8kQl8NV9m+LZyEYxjQndZZL/noqb5g8pYpCNellecxtVFdUZ979UWg==",
+      "type": "package",
+      "path": "jetbrains.annotations/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jetbrains.annotations.10.0.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.xml"
+      ]
+    },
+    "Mail.dll/3.0.20007.1248": {
+      "sha512": "9qIRIuWdaGXvGokZW7ec5EGkWv45mhYs0NGuNKIGE+d/1dwA0kPtHKySKvafeN2m+BwownQltWZJC4V+t4gc9A==",
+      "type": "package",
+      "path": "mail.dll/3.0.20007.1248",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Mail.dll",
+        "lib/net20/Mail.xml",
+        "lib/net45/Mail.dll",
+        "lib/net45/Mail.xml",
+        "lib/netstandard2.0/Mail.deps.json",
+        "lib/netstandard2.0/Mail.dll",
+        "lib/netstandard2.0/Mail.xml",
+        "lib/portable-win81+wpa81/Mail.dll",
+        "lib/portable-win81+wpa81/Mail.xml",
+        "lib/portable-wpa81+wp81/Mail.dll",
+        "lib/portable-wpa81+wp81/Mail.xml",
+        "mail.dll.3.0.20007.1248.nupkg.sha512",
+        "mail.dll.nuspec"
+      ]
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+      "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+      "type": "package",
+      "path": "microsoft.netframework.referenceassemblies/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.nuspec"
+      ]
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.3": {
+      "sha512": "AmOJZwCqnOCNp6PPcf9joyogScWLtwy0M1WkqfEQ0M9nYwyDD7EX9ZjscKS5iYnyvteX7kzSKFCKt9I9dXA6mA==",
+      "type": "package",
+      "path": "microsoft.netframework.referenceassemblies.net461/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/.NETFramework/v4.6.1/Accessibility.dll",
+        "build/.NETFramework/v4.6.1/Accessibility.xml",
+        "build/.NETFramework/v4.6.1/CustomMarshalers.dll",
+        "build/.NETFramework/v4.6.1/CustomMarshalers.xml",
+        "build/.NETFramework/v4.6.1/Facades/System.Collections.Concurrent.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Collections.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ComponentModel.Annotations.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ComponentModel.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Diagnostics.Contracts.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Diagnostics.Debug.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Diagnostics.Tools.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Diagnostics.Tracing.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Dynamic.Runtime.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Globalization.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.IO.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Linq.Expressions.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Linq.Parallel.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Linq.Queryable.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Linq.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Net.NetworkInformation.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Net.Primitives.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Net.Requests.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Net.WebHeaderCollection.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ObjectModel.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.Emit.Lightweight.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.Emit.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.Extensions.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.Primitives.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Reflection.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Resources.ResourceManager.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Extensions.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Handles.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.InteropServices.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Numerics.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Serialization.Json.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Serialization.Primitives.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.Serialization.Xml.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Runtime.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Security.Principal.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ServiceModel.Duplex.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ServiceModel.Http.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ServiceModel.NetTcp.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ServiceModel.Primitives.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.ServiceModel.Security.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Text.Encoding.Extensions.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Text.Encoding.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Text.RegularExpressions.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Threading.Tasks.Parallel.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Threading.Tasks.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Threading.Timer.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Threading.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Xml.ReaderWriter.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Xml.XDocument.dll",
+        "build/.NETFramework/v4.6.1/Facades/System.Xml.XmlSerializer.dll",
+        "build/.NETFramework/v4.6.1/ISymWrapper.dll",
+        "build/.NETFramework/v4.6.1/ISymWrapper.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Activities.Build.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Activities.Build.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Conversion.v4.0.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Conversion.v4.0.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Engine.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Engine.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Framework.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Framework.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Tasks.v4.0.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Tasks.v4.0.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Utilities.v4.0.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.Utilities.v4.0.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.Build.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.CSharp.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.CSharp.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.JScript.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.JScript.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.Compatibility.Data.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.Compatibility.Data.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.Compatibility.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.Compatibility.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualBasic.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualC.STLCLR.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualC.STLCLR.xml",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualC.dll",
+        "build/.NETFramework/v4.6.1/Microsoft.VisualC.xml",
+        "build/.NETFramework/v4.6.1/PermissionSets/FullTrust.xml",
+        "build/.NETFramework/v4.6.1/PermissionSets/Internet.xml",
+        "build/.NETFramework/v4.6.1/PermissionSets/LocalIntranet.xml",
+        "build/.NETFramework/v4.6.1/PresentationBuildTasks.dll",
+        "build/.NETFramework/v4.6.1/PresentationBuildTasks.xml",
+        "build/.NETFramework/v4.6.1/PresentationCore.dll",
+        "build/.NETFramework/v4.6.1/PresentationCore.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Aero.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Aero.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Aero2.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Aero2.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.AeroLite.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.AeroLite.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Classic.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Classic.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Luna.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Luna.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Royale.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.Royale.xml",
+        "build/.NETFramework/v4.6.1/PresentationFramework.dll",
+        "build/.NETFramework/v4.6.1/PresentationFramework.xml",
+        "build/.NETFramework/v4.6.1/ReachFramework.dll",
+        "build/.NETFramework/v4.6.1/ReachFramework.xml",
+        "build/.NETFramework/v4.6.1/RedistList/FrameworkList.xml",
+        "build/.NETFramework/v4.6.1/System.Activities.Core.Presentation.dll",
+        "build/.NETFramework/v4.6.1/System.Activities.Core.Presentation.xml",
+        "build/.NETFramework/v4.6.1/System.Activities.DurableInstancing.dll",
+        "build/.NETFramework/v4.6.1/System.Activities.DurableInstancing.xml",
+        "build/.NETFramework/v4.6.1/System.Activities.Presentation.dll",
+        "build/.NETFramework/v4.6.1/System.Activities.Presentation.xml",
+        "build/.NETFramework/v4.6.1/System.Activities.dll",
+        "build/.NETFramework/v4.6.1/System.Activities.xml",
+        "build/.NETFramework/v4.6.1/System.AddIn.Contract.dll",
+        "build/.NETFramework/v4.6.1/System.AddIn.Contract.xml",
+        "build/.NETFramework/v4.6.1/System.AddIn.dll",
+        "build/.NETFramework/v4.6.1/System.AddIn.xml",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.Composition.Registration.dll",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.Composition.Registration.xml",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.Composition.dll",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.Composition.xml",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.DataAnnotations.dll",
+        "build/.NETFramework/v4.6.1/System.ComponentModel.DataAnnotations.xml",
+        "build/.NETFramework/v4.6.1/System.Configuration.Install.dll",
+        "build/.NETFramework/v4.6.1/System.Configuration.Install.xml",
+        "build/.NETFramework/v4.6.1/System.Configuration.dll",
+        "build/.NETFramework/v4.6.1/System.Configuration.xml",
+        "build/.NETFramework/v4.6.1/System.Core.dll",
+        "build/.NETFramework/v4.6.1/System.Core.xml",
+        "build/.NETFramework/v4.6.1/System.Data.DataSetExtensions.dll",
+        "build/.NETFramework/v4.6.1/System.Data.DataSetExtensions.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Entity.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Entity.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Entity.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Entity.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Linq.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Linq.xml",
+        "build/.NETFramework/v4.6.1/System.Data.OracleClient.dll",
+        "build/.NETFramework/v4.6.1/System.Data.OracleClient.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Services.Client.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Services.Client.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Services.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Services.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Data.Services.dll",
+        "build/.NETFramework/v4.6.1/System.Data.Services.xml",
+        "build/.NETFramework/v4.6.1/System.Data.SqlXml.dll",
+        "build/.NETFramework/v4.6.1/System.Data.SqlXml.xml",
+        "build/.NETFramework/v4.6.1/System.Data.dll",
+        "build/.NETFramework/v4.6.1/System.Data.xml",
+        "build/.NETFramework/v4.6.1/System.Deployment.dll",
+        "build/.NETFramework/v4.6.1/System.Deployment.xml",
+        "build/.NETFramework/v4.6.1/System.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Device.dll",
+        "build/.NETFramework/v4.6.1/System.Device.xml",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.AccountManagement.dll",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.AccountManagement.xml",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.Protocols.dll",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.Protocols.xml",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.dll",
+        "build/.NETFramework/v4.6.1/System.DirectoryServices.xml",
+        "build/.NETFramework/v4.6.1/System.Drawing.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Drawing.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Drawing.dll",
+        "build/.NETFramework/v4.6.1/System.Drawing.xml",
+        "build/.NETFramework/v4.6.1/System.Dynamic.dll",
+        "build/.NETFramework/v4.6.1/System.EnterpriseServices.Thunk.dll",
+        "build/.NETFramework/v4.6.1/System.EnterpriseServices.Wrapper.dll",
+        "build/.NETFramework/v4.6.1/System.EnterpriseServices.dll",
+        "build/.NETFramework/v4.6.1/System.EnterpriseServices.xml",
+        "build/.NETFramework/v4.6.1/System.IO.Compression.FileSystem.dll",
+        "build/.NETFramework/v4.6.1/System.IO.Compression.FileSystem.xml",
+        "build/.NETFramework/v4.6.1/System.IO.Compression.dll",
+        "build/.NETFramework/v4.6.1/System.IO.Compression.xml",
+        "build/.NETFramework/v4.6.1/System.IO.Log.dll",
+        "build/.NETFramework/v4.6.1/System.IO.Log.xml",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.Selectors.dll",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.Selectors.xml",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.Services.dll",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.Services.xml",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.dll",
+        "build/.NETFramework/v4.6.1/System.IdentityModel.xml",
+        "build/.NETFramework/v4.6.1/System.Linq.xml",
+        "build/.NETFramework/v4.6.1/System.Management.Instrumentation.dll",
+        "build/.NETFramework/v4.6.1/System.Management.Instrumentation.xml",
+        "build/.NETFramework/v4.6.1/System.Management.dll",
+        "build/.NETFramework/v4.6.1/System.Management.xml",
+        "build/.NETFramework/v4.6.1/System.Messaging.dll",
+        "build/.NETFramework/v4.6.1/System.Messaging.xml",
+        "build/.NETFramework/v4.6.1/System.Net.Http.WebRequest.dll",
+        "build/.NETFramework/v4.6.1/System.Net.Http.WebRequest.xml",
+        "build/.NETFramework/v4.6.1/System.Net.Http.dll",
+        "build/.NETFramework/v4.6.1/System.Net.Http.xml",
+        "build/.NETFramework/v4.6.1/System.Net.dll",
+        "build/.NETFramework/v4.6.1/System.Net.xml",
+        "build/.NETFramework/v4.6.1/System.Numerics.Vectors.dll",
+        "build/.NETFramework/v4.6.1/System.Numerics.dll",
+        "build/.NETFramework/v4.6.1/System.Numerics.xml",
+        "build/.NETFramework/v4.6.1/System.Printing.dll",
+        "build/.NETFramework/v4.6.1/System.Printing.xml",
+        "build/.NETFramework/v4.6.1/System.Reflection.Context.dll",
+        "build/.NETFramework/v4.6.1/System.Reflection.Context.xml",
+        "build/.NETFramework/v4.6.1/System.Runtime.Caching.dll",
+        "build/.NETFramework/v4.6.1/System.Runtime.Caching.xml",
+        "build/.NETFramework/v4.6.1/System.Runtime.DurableInstancing.dll",
+        "build/.NETFramework/v4.6.1/System.Runtime.DurableInstancing.xml",
+        "build/.NETFramework/v4.6.1/System.Runtime.Remoting.dll",
+        "build/.NETFramework/v4.6.1/System.Runtime.Remoting.xml",
+        "build/.NETFramework/v4.6.1/System.Runtime.Serialization.Formatters.Soap.dll",
+        "build/.NETFramework/v4.6.1/System.Runtime.Serialization.Formatters.Soap.xml",
+        "build/.NETFramework/v4.6.1/System.Runtime.Serialization.dll",
+        "build/.NETFramework/v4.6.1/System.Runtime.Serialization.xml",
+        "build/.NETFramework/v4.6.1/System.Security.dll",
+        "build/.NETFramework/v4.6.1/System.Security.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Activation.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Activation.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Activities.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Activities.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Channels.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Channels.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Discovery.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Discovery.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Routing.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Routing.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Web.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.Web.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceModel.xml",
+        "build/.NETFramework/v4.6.1/System.ServiceProcess.dll",
+        "build/.NETFramework/v4.6.1/System.ServiceProcess.xml",
+        "build/.NETFramework/v4.6.1/System.Speech.dll",
+        "build/.NETFramework/v4.6.1/System.Speech.xml",
+        "build/.NETFramework/v4.6.1/System.Threading.Tasks.Dataflow.xml",
+        "build/.NETFramework/v4.6.1/System.Transactions.dll",
+        "build/.NETFramework/v4.6.1/System.Transactions.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Abstractions.dll",
+        "build/.NETFramework/v4.6.1/System.Web.ApplicationServices.dll",
+        "build/.NETFramework/v4.6.1/System.Web.ApplicationServices.xml",
+        "build/.NETFramework/v4.6.1/System.Web.DataVisualization.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Web.DataVisualization.dll",
+        "build/.NETFramework/v4.6.1/System.Web.DataVisualization.xml",
+        "build/.NETFramework/v4.6.1/System.Web.DynamicData.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Web.DynamicData.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Web.DynamicData.dll",
+        "build/.NETFramework/v4.6.1/System.Web.DynamicData.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Entity.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Entity.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Entity.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Entity.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Extensions.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Extensions.Design.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Extensions.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Extensions.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Mobile.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Mobile.xml",
+        "build/.NETFramework/v4.6.1/System.Web.RegularExpressions.dll",
+        "build/.NETFramework/v4.6.1/System.Web.RegularExpressions.xml",
+        "build/.NETFramework/v4.6.1/System.Web.Routing.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Services.dll",
+        "build/.NETFramework/v4.6.1/System.Web.Services.xml",
+        "build/.NETFramework/v4.6.1/System.Web.dll",
+        "build/.NETFramework/v4.6.1/System.Web.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.Controls.Ribbon.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Controls.Ribbon.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.Forms.DataVisualization.Design.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Forms.DataVisualization.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Forms.DataVisualization.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.Forms.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Forms.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.Input.Manipulations.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Input.Manipulations.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.Presentation.dll",
+        "build/.NETFramework/v4.6.1/System.Windows.Presentation.xml",
+        "build/.NETFramework/v4.6.1/System.Windows.dll",
+        "build/.NETFramework/v4.6.1/System.Workflow.Activities.dll",
+        "build/.NETFramework/v4.6.1/System.Workflow.Activities.xml",
+        "build/.NETFramework/v4.6.1/System.Workflow.ComponentModel.dll",
+        "build/.NETFramework/v4.6.1/System.Workflow.ComponentModel.xml",
+        "build/.NETFramework/v4.6.1/System.Workflow.Runtime.dll",
+        "build/.NETFramework/v4.6.1/System.Workflow.Runtime.xml",
+        "build/.NETFramework/v4.6.1/System.WorkflowServices.dll",
+        "build/.NETFramework/v4.6.1/System.WorkflowServices.xml",
+        "build/.NETFramework/v4.6.1/System.Xaml.dll",
+        "build/.NETFramework/v4.6.1/System.Xaml.xml",
+        "build/.NETFramework/v4.6.1/System.Xml.Linq.dll",
+        "build/.NETFramework/v4.6.1/System.Xml.Linq.xml",
+        "build/.NETFramework/v4.6.1/System.Xml.Serialization.dll",
+        "build/.NETFramework/v4.6.1/System.Xml.dll",
+        "build/.NETFramework/v4.6.1/System.Xml.xml",
+        "build/.NETFramework/v4.6.1/System.dll",
+        "build/.NETFramework/v4.6.1/System.xml",
+        "build/.NETFramework/v4.6.1/UIAutomationClient.dll",
+        "build/.NETFramework/v4.6.1/UIAutomationClient.xml",
+        "build/.NETFramework/v4.6.1/UIAutomationClientsideProviders.dll",
+        "build/.NETFramework/v4.6.1/UIAutomationClientsideProviders.xml",
+        "build/.NETFramework/v4.6.1/UIAutomationProvider.dll",
+        "build/.NETFramework/v4.6.1/UIAutomationProvider.xml",
+        "build/.NETFramework/v4.6.1/UIAutomationTypes.dll",
+        "build/.NETFramework/v4.6.1/UIAutomationTypes.xml",
+        "build/.NETFramework/v4.6.1/WindowsBase.dll",
+        "build/.NETFramework/v4.6.1/WindowsBase.xml",
+        "build/.NETFramework/v4.6.1/WindowsFormsIntegration.dll",
+        "build/.NETFramework/v4.6.1/WindowsFormsIntegration.xml",
+        "build/.NETFramework/v4.6.1/XamlBuildTask.dll",
+        "build/.NETFramework/v4.6.1/XamlBuildTask.xml",
+        "build/.NETFramework/v4.6.1/mscorlib.dll",
+        "build/.NETFramework/v4.6.1/mscorlib.xml",
+        "build/.NETFramework/v4.6.1/namespaces.xml",
+        "build/.NETFramework/v4.6.1/sysglobl.dll",
+        "build/.NETFramework/v4.6.1/sysglobl.xml",
+        "build/Microsoft.NETFramework.ReferenceAssemblies.net461.targets",
+        "microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.net461.nuspec"
+      ]
+    },
+    "Mono.Cecil/0.9.5.4": {
+      "sha512": "lSrFKGdaagNNm+GSDbHnYo3m31ceBk2PsszYdXFmphfTqB1fnX8lMEasSC6dYzHfiM+3PaMXEMFqgMJYFv1I8A==",
+      "type": "package",
+      "path": "mono.cecil/0.9.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Mono.Cecil.Mdb.dll",
+        "lib/net20/Mono.Cecil.Pdb.dll",
+        "lib/net20/Mono.Cecil.dll",
+        "lib/net35/Mono.Cecil.Mdb.dll",
+        "lib/net35/Mono.Cecil.Pdb.dll",
+        "lib/net35/Mono.Cecil.Rocks.dll",
+        "lib/net35/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/sl40/Mono.Cecil.Rocks.dll",
+        "lib/sl40/Mono.Cecil.dll",
+        "mono.cecil.0.9.5.4.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/10.0.2": {
+      "sha512": "iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
+      "type": "package",
+      "path": "newtonsoft.json/10.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
+        "newtonsoft.json.10.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NodaTime/2.0.2": {
+      "sha512": "JBPy6lkrwKF7z6BX1jdqgnSZ4w31W6kgoMsmOZXyFr/z/VGjR3gtjh/qixdmfsSCIa1YvL89dqIsW6Hvi+2SHQ==",
+      "type": "package",
+      "path": "nodatime/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/NodaTime.dll",
+        "lib/net45/NodaTime.xml",
+        "lib/netstandard1.3/NodaTime.dll",
+        "lib/netstandard1.3/NodaTime.xml",
+        "nodatime.2.0.2.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    },
+    "Oracle.ManagedDataAccess/12.1.2400": {
+      "sha512": "IZNfjLVWdYPwE5yaAeSDlcwRWUhhdZiZJYRQeV5VhQE5NR6GBwaTbnJNYkDmW1ac0uru5F/AqN225R0guFfM3Q==",
+      "type": "package",
+      "path": "oracle.manageddataaccess/12.1.2400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bin/x64/Oracle.ManagedDataAccessDTC.dll",
+        "bin/x64/Oracle.ManagedDataAccessIOP.dll",
+        "bin/x86/Oracle.ManagedDataAccessDTC.dll",
+        "bin/x86/Oracle.ManagedDataAccessIOP.dll",
+        "content/net40/App.config.install.xdt",
+        "content/net40/App.config.transform",
+        "content/net40/App.config.uninstall.xdt",
+        "content/net40/Web.config.install.xdt",
+        "content/net40/Web.config.transform",
+        "content/net40/Web.config.uninstall.xdt",
+        "info.txt",
+        "lib/net40/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.12.1.2400.nupkg.sha512",
+        "oracle.manageddataaccess.nuspec",
+        "readme.txt"
+      ]
+    },
+    "PdfiumViewer/2.13.0": {
+      "sha512": "Nw4owBmJzDVXoMRjCnqPbET07CPOawwhcNjt+PyRaSxONN9bsFF+cm9kcMsDLEAEaxsiDJo5jls8bCQjvjidkA==",
+      "type": "package",
+      "path": "pdfiumviewer/2.13.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Tools/Install.ps1",
+        "lib/net20/PdfiumViewer.dll",
+        "lib/net20/PdfiumViewer.xml",
+        "lib/net20/nl/PdfiumViewer.resources.dll",
+        "pdfiumviewer.2.13.0.nupkg.sha512",
+        "pdfiumviewer.nuspec"
+      ]
+    },
+    "PdfiumViewer.Native.x86.no_v8-no_xfa/2018.3.18.254": {
+      "sha512": "h0S8zVFhTg4nqH7QqoEG2U/XoAKHuPvRRK9wnIA6o6tiIwLEkHzHA77A3nPHym5gkIOKAXuCJpK2nBtE+CCu0A==",
+      "type": "package",
+      "path": "pdfiumviewer.native.x86.no_v8-no_xfa/2018.3.18.254",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Build/PdfiumViewer.Native.x86.no_v8-no_xfa.props",
+        "Build/x86/pdfium.dll",
+        "pdfiumviewer.native.x86.no_v8-no_xfa.2018.3.18.254.nupkg.sha512",
+        "pdfiumviewer.native.x86.no_v8-no_xfa.nuspec"
+      ]
+    },
+    "PdfiumViewer.Native.x86_64.no_v8-no_xfa/2018.3.18.254": {
+      "sha512": "LGHiz9dUQRc9aifXKI1WUQayl5dQ0SX2QIyECw7k02yyAWg3zddfJZKBYy1ushiQ5yEx6kERFa8uKk0Bsu+LRQ==",
+      "type": "package",
+      "path": "pdfiumviewer.native.x86_64.no_v8-no_xfa/2018.3.18.254",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Build/PdfiumViewer.Native.x86_64.no_v8-no_xfa.props",
+        "Build/x64/pdfium.dll",
+        "pdfiumviewer.native.x86_64.no_v8-no_xfa.2018.3.18.254.nupkg.sha512",
+        "pdfiumviewer.native.x86_64.no_v8-no_xfa.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/3.4.0": {
+      "sha512": "3+5hfz41pmg0pAcx3wa4qECc1a/r32/r0XZATw7R6XmYfq3sxeyyijgen+DThU6RFkN2JzgjJ1W8LXJkw5eyPQ==",
+      "type": "package",
+      "path": "rabbitmq.client/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/RabbitMQ.Client.dll",
+        "lib/net35/RabbitMQ.Client.xml",
+        "rabbitmq.client.3.4.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "SharpZipLib/0.86.0": {
+      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
+      "type": "package",
+      "path": "sharpziplib/0.86.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/11/ICSharpCode.SharpZipLib.dll",
+        "lib/20/ICSharpCode.SharpZipLib.dll",
+        "lib/SL3/SharpZipLib.Silverlight3.dll",
+        "lib/SL4/SharpZipLib.Silverlight4.dll",
+        "sharpziplib.0.86.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "Soneta.BI/2012.4.6": {
+      "sha512": "6LATGe8rvXX++xRYgHfFE3Iu3OCQzmQsc4l/YUnZJRHZXI+aycCtaOQheEOuXMqwAix1m3HnUl96NMJ2QPPNTQ==",
+      "type": "package",
+      "path": "soneta.bi/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.BI.dll",
+        "lib/net46/Soneta.BI.pdb",
+        "schema/BI.business.xml",
+        "soneta.bi.2012.4.6.nupkg.sha512",
+        "soneta.bi.nuspec"
+      ]
+    },
+    "Soneta.Business/2012.4.6": {
+      "sha512": "BLeRt+OeiBwLm1QA83PONS2TQjCBMTke4BypUot4U3D/Wd/dNTsYXtKdG0asGw0IJ7C0d76xi/uouVjuBxfzkg==",
+      "type": "package",
+      "path": "soneta.business/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Business.dll",
+        "lib/net46/Soneta.Business.pdb",
+        "schema/Analysis.business.xml",
+        "schema/Business.business.xml",
+        "schema/Snapshots.business.xml",
+        "soneta.business.2012.4.6.nupkg.sha512",
+        "soneta.business.nuspec"
+      ]
+    },
+    "Soneta.Core/2012.4.6": {
+      "sha512": "9b/bgYjgytk77oYiiQCZ6jnSH4WxOAH10QTBJXE96UjB/VTT0skQSEgiNm+ZEVg8RDmxUDZ65RIQmn2gyNTUbw==",
+      "type": "package",
+      "path": "soneta.core/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Core.dll",
+        "lib/net46/Soneta.Core.pdb",
+        "schema/Core.business.xml",
+        "schema/Oceny.business.xml",
+        "soneta.core.2012.4.6.nupkg.sha512",
+        "soneta.core.nuspec"
+      ]
+    },
+    "Soneta.CRM/2012.4.6": {
+      "sha512": "BS2Uxdc+iwQjH4rM/SjTatwJo3U2scWO+Vq12qObHcbeTDTKfv6PLvWPuIvuIZyNBxqu9h2tkcBs/GI0Nj1kIg==",
+      "type": "package",
+      "path": "soneta.crm/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.CRM.dll",
+        "lib/net46/Soneta.CRM.pdb",
+        "schema/CRM.business.xml",
+        "soneta.crm.2012.4.6.nupkg.sha512",
+        "soneta.crm.nuspec"
+      ]
+    },
+    "Soneta.CzlonkowieSzkolenia/2012.4.6": {
+      "sha512": "ulM4T8nA8w2p0gWerbHTObL2LjkzlN5KBGhZ9RTj4/30JiaipbTP3HNasWp457TKdcfMeN8rDLmrrcTmaBoFCQ==",
+      "type": "package",
+      "path": "soneta.czlonkowieszkolenia/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.CzlonkowieSzkolenia.dll",
+        "lib/net46/Soneta.CzlonkowieSzkolenia.pdb",
+        "schema/CzlonkowieSzkolenia.business.xml",
+        "soneta.czlonkowieszkolenia.2012.4.6.nupkg.sha512",
+        "soneta.czlonkowieszkolenia.nuspec"
+      ]
+    },
+    "Soneta.Data/2012.4.6": {
+      "sha512": "cVucecHeKZOXFAP7K+vrkgHWiFcJMWaPaDM0ufnb0zQCAkvpMW5S+TrlL3PkUWfeMlRyijyGppy3H1sMRIq2+g==",
+      "type": "package",
+      "path": "soneta.data/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Data.dll",
+        "lib/net46/Soneta.Data.pdb",
+        "soneta.data.2012.4.6.nupkg.sha512",
+        "soneta.data.nuspec"
+      ]
+    },
+    "Soneta.Deklaracje/2012.4.6": {
+      "sha512": "lMdsGP4PCMX6LjpnGPNi42OVw2TZmWRrgJHLi5WkFarko7/912PIChVRtQNSd5h/kUSv/fXw5Yu9oJ+NBjnxcw==",
+      "type": "package",
+      "path": "soneta.deklaracje/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Deklaracje.dll",
+        "lib/net46/Soneta.Deklaracje.pdb",
+        "schema/Deklaracje.business.xml",
+        "soneta.deklaracje.2012.4.6.nupkg.sha512",
+        "soneta.deklaracje.nuspec"
+      ]
+    },
+    "Soneta.EI/2012.4.6": {
+      "sha512": "91q1cEEkmoaFXvuqc4M8niWZ3JyhYYIU96KU6rxvEzRwdSZQwgu9o+LNgq3bcEOfFZf/MrESSsZYN3lNpH8xYg==",
+      "type": "package",
+      "path": "soneta.ei/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.EI.dll",
+        "lib/net46/Soneta.EI.pdb",
+        "soneta.ei.2012.4.6.nupkg.sha512",
+        "soneta.ei.nuspec"
+      ]
+    },
+    "Soneta.Generator/12.0.0": {
+      "sha512": "OM4AP3SgWb7rJTkzfr0DqPDaGyHCjF8GBMh5JhsyL84DIUMsjI9x5a0DODprw9F4GWHfJ7MC9PZXjWKMxNa+tA==",
+      "type": "package",
+      "path": "soneta.generator/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Generator.exe",
+        "soneta.generator.12.0.0.nupkg.sha512",
+        "soneta.generator.nuspec"
+      ]
+    },
+    "Soneta.GoogleServiceProvider/2.0.0": {
+      "sha512": "udj+/TKV2YGcaKDsLG6BpEY5E8Gszp1tZaHCFkSHtwoYouwFLcyhkKjUmqfTnHdmC5k9j3rQ/p3H7OmixeB7HQ==",
+      "type": "package",
+      "path": "soneta.googleserviceprovider/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/GoogleServiceProvider/Google.Apis.Auth.PlatformServices.dll",
+        "build/GoogleServiceProvider/Google.Apis.Auth.dll",
+        "build/GoogleServiceProvider/Google.Apis.Calendar.v3.dll",
+        "build/GoogleServiceProvider/Google.Apis.Core.dll",
+        "build/GoogleServiceProvider/Google.Apis.PlatformServices.dll",
+        "build/GoogleServiceProvider/Google.Apis.dll",
+        "build/GoogleServiceProvider/GoogleServiceProvider.exe",
+        "build/GoogleServiceProvider/GoogleServiceProvider.exe.config",
+        "build/GoogleServiceProvider/Newtonsoft.Json.dll",
+        "build/Soneta.GoogleServiceProvider.props",
+        "soneta.googleserviceprovider.2.0.0.nupkg.sha512",
+        "soneta.googleserviceprovider.nuspec"
+      ]
+    },
+    "Soneta.Handel/2012.4.6": {
+      "sha512": "yEBByBJwPMF6ljpu8ImaqMVDzCIG6qQgTylNWOUsHDz6AWsxb0vzw6EhuhClS6iKorLCs8o8EaqLGJNIwkRSVA==",
+      "type": "package",
+      "path": "soneta.handel/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Handel.dll",
+        "lib/net46/Soneta.Handel.pdb",
+        "schema/Handel.business.xml",
+        "schema/Magazyny.business.xml",
+        "schema/Produkcja.business.xml",
+        "schema/Towary.business.xml",
+        "soneta.handel.2012.4.6.nupkg.sha512",
+        "soneta.handel.nuspec"
+      ]
+    },
+    "Soneta.KadryPlace/2012.4.6": {
+      "sha512": "oBnxzZCPqPLwMAfT5b0ywlIx8By0bmM6Ali+m3Sl3olvjZJ2bCDLKiE3hhXBX+rTXQh3x5wiph5fLlw65utuBA==",
+      "type": "package",
+      "path": "soneta.kadryplace/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.KadryPlace.dll",
+        "lib/net46/Soneta.KadryPlace.pdb",
+        "schema/HR.business.xml",
+        "schema/HR2.business.xml",
+        "schema/Kadry.business.xml",
+        "schema/Kalend.business.xml",
+        "schema/Place.business.xml",
+        "schema/Przeszeregowania.business.xml",
+        "soneta.kadryplace.2012.4.6.nupkg.sha512",
+        "soneta.kadryplace.nuspec"
+      ]
+    },
+    "Soneta.Kasa/2012.4.6": {
+      "sha512": "Zt/bFErbVn1BnfHzoUhOasQIGUo3cwOxnuj86Os+jBiAiueI+qfFt9P0U/K/O73KoIGQ5G54kGTSjPWC4u6xFg==",
+      "type": "package",
+      "path": "soneta.kasa/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/7za.exe",
+        "contentFiles/any/net46/7za.exe",
+        "lib/net46/Soneta.Kasa.dll",
+        "lib/net46/Soneta.Kasa.pdb",
+        "schema/Kasa.business.xml",
+        "schema/Waluty.business.xml",
+        "schema/Windykacja.business.xml",
+        "soneta.kasa.2012.4.6.nupkg.sha512",
+        "soneta.kasa.nuspec"
+      ]
+    },
+    "Soneta.Ksiega/2012.4.6": {
+      "sha512": "R63LprszfkMNrxqiKaU6TkQQHZxQbtVaeQ1BBx3SWk6397fmFCjOneOWyZ5bdv5YjGXj7QLwqwyMBfNECUH7Ag==",
+      "type": "package",
+      "path": "soneta.ksiega/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Ksiega.dll",
+        "lib/net46/Soneta.Ksiega.pdb",
+        "schema/Delegacje.business.xml",
+        "schema/EwidencjaVat.business.xml",
+        "schema/Import.business.xml",
+        "schema/Ksiega.business.xml",
+        "schema/RMK.business.xml",
+        "schema/Samochodowka.business.xml",
+        "schema/SrodkiTrwale.business.xml",
+        "soneta.ksiega.2012.4.6.nupkg.sha512",
+        "soneta.ksiega.nuspec"
+      ]
+    },
+    "Soneta.Licence/1.0.0": {
+      "sha512": "WVNCj/3lzUMDghWAbmo6vFl5NNluu8KZ1lRBPDg4qRVtyDrBURoGYVdoq0fkIDd0zoBUL++zhCEkIWjWRjmh7w==",
+      "type": "package",
+      "path": "soneta.licence/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Soneta.Licence.dll",
+        "lib/netstandard2.0/Soneta.Licence.dll",
+        "soneta.licence.1.0.0.nupkg.sha512",
+        "soneta.licence.nuspec"
+      ]
+    },
+    "Soneta.Licence.Local/1.0.0": {
+      "sha512": "xNPmHGlMNY+YVoACQ8AuYGO8NLh/ZXGKMXDJm53trzD8R/M85IGsbOHfrAEKlGEeX4k0dW75PByWco4uxeCnzw==",
+      "type": "package",
+      "path": "soneta.licence.local/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Soneta.Licence.Local.dll",
+        "lib/netstandard2.0/Soneta.Licence.Local.dll",
+        "soneta.licence.local.1.0.0.nupkg.sha512",
+        "soneta.licence.local.nuspec"
+      ]
+    },
+    "Soneta.Licence.Local.Proxy/1.0.0": {
+      "sha512": "y7Sd43vaJ1d9gV2Jg7Csh13neMtL4jh9Rt6dQp0yWgovbSzGeS5wHm9t005ETUhxsGjdZPhcAgOLEjphkV1uWQ==",
+      "type": "package",
+      "path": "soneta.licence.local.proxy/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Soneta.Licence.Local.Proxy.dll",
+        "soneta.licence.local.proxy.1.0.0.nupkg.sha512",
+        "soneta.licence.local.proxy.nuspec"
+      ]
+    },
+    "Soneta.Products.Content/2012.4.6": {
+      "sha512": "nf+rVUJni6zd67YI2Uj4thS28Wdt0IUbh5+4/ARm+xYTOM0JhD4s3BwV5fc3t7FPtai4G7qjbHWvwr56BLPlQw==",
+      "type": "package",
+      "path": "soneta.products.content/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Demo/001.Podstawy.xml",
+        "content/Demo/002.Podstawy.gold.xml",
+        "content/Demo/002.Podstawy.silver.xml",
+        "content/Demo/100.Handel.xml",
+        "content/Demo/100.Kadry.gold.xml",
+        "content/Demo/100.Kadry.silver.xml",
+        "content/Demo/100.Ksiega.gold.xml",
+        "content/Demo/101.BazaDemo_Listy.xml",
+        "content/Demo/101.Kadry.xml",
+        "content/Demo/102.AWW_Handel.xml",
+        "content/Soneta.files.xml",
+        "contentFiles/any/net46/Demo/001.Podstawy.xml",
+        "contentFiles/any/net46/Demo/002.Podstawy.gold.xml",
+        "contentFiles/any/net46/Demo/002.Podstawy.silver.xml",
+        "contentFiles/any/net46/Demo/100.Handel.xml",
+        "contentFiles/any/net46/Demo/100.Kadry.gold.xml",
+        "contentFiles/any/net46/Demo/100.Kadry.silver.xml",
+        "contentFiles/any/net46/Demo/100.Ksiega.gold.xml",
+        "contentFiles/any/net46/Demo/101.BazaDemo_Listy.xml",
+        "contentFiles/any/net46/Demo/101.Kadry.xml",
+        "contentFiles/any/net46/Demo/102.AWW_Handel.xml",
+        "contentFiles/any/net46/Soneta.files.xml",
+        "soneta.products.content.2012.4.6.nupkg.sha512",
+        "soneta.products.content.nuspec"
+      ]
+    },
+    "Soneta.Products.Modules/2012.4.6": {
+      "sha512": "aU/yRq5aPUukc954eWVRAFIK02KWf8Ld7ehRArpqrG48rTqLucwD7fHXo/M9x5lQ4M7Ptni/N/v5MSqPR/8CIQ==",
+      "type": "package",
+      "path": "soneta.products.modules/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "soneta.products.modules.2012.4.6.nupkg.sha512",
+        "soneta.products.modules.nuspec"
+      ]
+    },
+    "Soneta.Start/2012.4.6": {
+      "sha512": "ncvbtLdocHtzSZWimTxCIRvT0wD2mTdeLO60toL/La3NCEkMUiY2NNPAyppPJtJA/GqjSQO8JWHCRmFJjri5hA==",
+      "type": "package",
+      "path": "soneta.start/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Start.dll",
+        "lib/net46/Soneta.Start.pdb",
+        "soneta.start.2012.4.6.nupkg.sha512",
+        "soneta.start.nuspec"
+      ]
+    },
+    "Soneta.Types/2012.4.6": {
+      "sha512": "NIxf11u5N7sync/7TbZk4y5+5WpywT5VHGJP3Okf7Rvrxu1w8iePuT6VWCHDIc2bcKcuMK39RHTzd2nbKE46Kw==",
+      "type": "package",
+      "path": "soneta.types/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Types.dll",
+        "lib/net46/Soneta.Types.pdb",
+        "soneta.types.2012.4.6.nupkg.sha512",
+        "soneta.types.nuspec"
+      ]
+    },
+    "Soneta.Web.Business/2012.4.6": {
+      "sha512": "/e11I+xkZegQ4F06PPXMFk7Si2a5eCu11SohsCP3x4dPjqUiB2Ttamc1VQDBZ6Ru/it3oNgmlgMK2iY2NBOK9Q==",
+      "type": "package",
+      "path": "soneta.web.business/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Web.Business.dll",
+        "lib/net46/Soneta.Web.Business.pdb",
+        "schema/WebAuthorization.business.xml",
+        "soneta.web.business.2012.4.6.nupkg.sha512",
+        "soneta.web.business.nuspec"
+      ]
+    },
+    "Soneta.Workflow/2012.4.6": {
+      "sha512": "WojBmogrn4Ig9TaD+so69ystLSbjHCjM3cFNNBVdqdJJ7pUHpdJNx1lacVPgkTHr65LDWmQNCSbiGnVULUCPcw==",
+      "type": "package",
+      "path": "soneta.workflow/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Workflow.dll",
+        "lib/net46/Soneta.Workflow.pdb",
+        "schema/Dms.business.xml",
+        "schema/Workflow.business.xml",
+        "soneta.workflow.2012.4.6.nupkg.sha512",
+        "soneta.workflow.nuspec"
+      ]
+    },
+    "Soneta.Zadania/2012.4.6": {
+      "sha512": "cXuq2KVRkNTQSdojilEieoHP3Kfwstzj/9ZB69U5SuDWo9JuKpdbDkh9/KVeO61Wg81wpfg6bJK7tQywOtNmdA==",
+      "type": "package",
+      "path": "soneta.zadania/2012.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Soneta.Zadania.dll",
+        "lib/net46/Soneta.Zadania.pdb",
+        "schema/Zadania.business.xml",
+        "soneta.zadania.2012.4.6.nupkg.sha512",
+        "soneta.zadania.nuspec"
+      ]
+    },
+    "Syncfusion.Compression.Base/17.2.0.46": {
+      "sha512": "kOho3rWV4tnPVXzPR8L5upWtryLFvhMG0GPtV0ZjciU+U1Rko2EW2K3nenCOU9GywTehLmtqUhmrAHC04xzVDw==",
+      "type": "package",
+      "path": "syncfusion.compression.base/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp3.0/Syncfusion.Compression.Base.dll",
+        "lib/netcoreapp3.0/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.17.2.0.46.nupkg.sha512",
+        "syncfusion.compression.base.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/17.2.0.46": {
+      "sha512": "7Z0xCojkmYQlpzlJxpr/0IaMMfYeL3Os9BgpqBC93HlwL5mTX5CyoyVWy6rBsqH8skfcriY+JmnZHtPlXedHnA==",
+      "type": "package",
+      "path": "syncfusion.licensing/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.17.2.0.46.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Pdf.OCR.WinForms/17.2.0.46": {
+      "sha512": "mjURjJlnvwfyn2IGZ7uGkI/SGmMC+AX95s38OyzPOf/vAOqrBR7z7zxHXeqO01Xjql+yCEpH9YxBnGh+BJVtcw==",
+      "type": "package",
+      "path": "syncfusion.pdf.ocr.winforms/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/LanguagePack/chi_sim.traineddata",
+        "lib/LanguagePack/eng.cube.bigrams",
+        "lib/LanguagePack/eng.cube.fold",
+        "lib/LanguagePack/eng.cube.lm",
+        "lib/LanguagePack/eng.cube.nn",
+        "lib/LanguagePack/eng.cube.params",
+        "lib/LanguagePack/eng.cube.size",
+        "lib/LanguagePack/eng.cube.word-freq",
+        "lib/LanguagePack/eng.tesseract_cube.nn",
+        "lib/LanguagePack/eng.traineddata",
+        "lib/LanguagePack/fra.traineddata",
+        "lib/LanguagePack/osd.traineddata",
+        "lib/TesseractBinaries/3.02/SyncfusionTesseract.dll",
+        "lib/TesseractBinaries/3.02/liblept168.dll",
+        "lib/TesseractBinaries/3.05/x64/SyncfusionTesseract.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.danbloomberg.leptonica-1.74.4.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.jpeg-9.2.0.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.madler.zlib-1.2.11.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.openjpeg.openjp2-2.3.0.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.png-1.6.34.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.tiff-4.0.9.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.webp-0.6.1.dll",
+        "lib/TesseractBinaries/3.05/x64/pvt.cppan.demo.xz_utils.lzma-5.2.3.dll",
+        "lib/TesseractBinaries/3.05/x86/SyncfusionTesseract.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.danbloomberg.leptonica-1.74.4.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.jpeg-9.2.0.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.madler.zlib-1.2.11.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.openjpeg.openjp2-2.3.0.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.png-1.6.34.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.tiff-4.0.9.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.webp-0.6.1.dll",
+        "lib/TesseractBinaries/3.05/x86/pvt.cppan.demo.xz_utils.lzma-5.2.3.dll",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net20/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net20/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net20/Syncfusion.Pdf.Base.dll",
+        "lib/net20/Syncfusion.Pdf.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net35/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net35/Syncfusion.Pdf.Base.dll",
+        "lib/net35/Syncfusion.Pdf.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net40/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net45/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net45/Syncfusion.Pdf.Base.dll",
+        "lib/net45/Syncfusion.Pdf.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net451/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net451/Syncfusion.Pdf.Base.dll",
+        "lib/net451/Syncfusion.Pdf.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.OCRProcessor.Base.dll",
+        "lib/net46/Syncfusion.OCRProcessor.Base.xml",
+        "lib/net46/Syncfusion.Pdf.Base.dll",
+        "lib/net46/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.ocr.winforms.17.2.0.46.nupkg.sha512",
+        "syncfusion.pdf.ocr.winforms.nuspec"
+      ]
+    },
+    "Syncfusion.XlsIO.WinForms/17.2.0.46": {
+      "sha512": "O2f16BUeqpvkRkCXyvLhczsHjhIYph3ON0m/NDUh57PQAnQTCnMeb33/BrTih9Kd+YwyQeAMhzmODff/eyJnBA==",
+      "type": "package",
+      "path": "syncfusion.xlsio.winforms/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.XlsIO.Base.dll",
+        "lib/net20/Syncfusion.XlsIO.Base.xml",
+        "lib/net35/Syncfusion.XlsIO.Base.dll",
+        "lib/net35/Syncfusion.XlsIO.Base.xml",
+        "lib/net40/Syncfusion.XlsIO.Base.dll",
+        "lib/net40/Syncfusion.XlsIO.Base.xml",
+        "lib/net45/Syncfusion.XlsIO.Base.dll",
+        "lib/net45/Syncfusion.XlsIO.Base.xml",
+        "lib/net451/Syncfusion.XlsIO.Base.dll",
+        "lib/net451/Syncfusion.XlsIO.Base.xml",
+        "lib/net46/Syncfusion.XlsIO.Base.dll",
+        "lib/net46/Syncfusion.XlsIO.Base.xml",
+        "lib/netcoreapp3.0/Syncfusion.XlsIO.Base.dll",
+        "lib/netcoreapp3.0/Syncfusion.XlsIO.Base.xml",
+        "syncfusion.xlsio.winforms.17.2.0.46.nupkg.sha512",
+        "syncfusion.xlsio.winforms.nuspec"
+      ]
+    },
+    "System.Reflection.TypeExtensions/4.1.0": {
+      "sha512": "tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
+      "type": "package",
+      "path": "system.reflection.typeextensions/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Reflection.TypeExtensions.dll",
+        "lib/net462/System.Reflection.TypeExtensions.dll",
+        "lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Reflection.TypeExtensions.dll",
+        "ref/net462/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "system.reflection.typeextensions.4.1.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ZXing.Net/0.14.0.1": {
+      "sha512": "XnYnyNARozhoRJwdioHTcsJFMsIbYj/wwecL9sGq0mhmEA7LbElzLiVLUMuZRFbrHiElGbVCjD2GbeQG3tzZ7Q==",
+      "type": "package",
+      "path": "zxing.net/0.14.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/zxing.monoandroid.dll",
+        "lib/MonoAndroid/zxing.monoandroid.pdb",
+        "lib/MonoAndroid/zxing.monoandroid.xml",
+        "lib/native/ZXing.XML",
+        "lib/native/ZXing.pdb",
+        "lib/native/ZXing.pri",
+        "lib/native/ZXing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.pdb",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net20/zxing.pdb",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.pdb",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net35/zxing.pdb",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.pdb",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net40/zxing.presentation.pdb",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.pdb",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl3-wp/zxing.wp7.0.pdb",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4-wp71/zxing.wp7.1.pdb",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl4/zxing.sl4.pdb",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/sl5/zxing.sl5.pdb",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8-managed/zxing.winrt.pdb",
+        "lib/windows8/ZXing.XML",
+        "lib/windows8/ZXing.pdb",
+        "lib/windows8/ZXing.pri",
+        "lib/windows8/ZXing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "lib/wp8/zxing.wp8.0.pdb",
+        "lib/wpa81/ZXing.XML",
+        "lib/wpa81/ZXing.pdb",
+        "lib/wpa81/ZXing.pri",
+        "lib/wpa81/ZXing.winmd",
+        "zxing.net.0.14.0.1.nupkg.sha512",
+        "zxing.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
+      "Soneta.Products.Modules >= 2012.4.6",
+      "System.ValueTuple >= 4.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Grzegorz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\Rekrutacja-master\\Rekrutacja\\Rekrutacja.UI\\Rekrutacja.UI.csproj",
+      "projectName": "Rekrutacja.UI",
+      "projectPath": "C:\\Users\\Grzegorz\\Desktop\\Rekrutacja-master\\Rekrutacja\\Rekrutacja.UI\\Rekrutacja.UI.csproj",
+      "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Grzegorz\\Desktop\\Rekrutacja-master\\Rekrutacja\\Rekrutacja.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "targetAlias": "net461",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.3, )",
+            "autoReferenced": true
+          },
+          "Soneta.Products.Modules": {
+            "include": "Compile",
+            "target": "Package",
+            "version": "[2012.4.6, )"
+          },
+          "System.ValueTuple": {
+            "include": "Compile",
+            "target": "Package",
+            "version": "[4.4.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
